@@ -1,6 +1,3 @@
-body {
-  background-color: #fdfeff;
-}
 header {
   /* border: 2px solid red; */
   margin-top: 1rem;
@@ -70,16 +67,10 @@ header {
 .hero-section-wrapper {
   display: flex;
   flex-direction: column;
-
   width: 40%;
 }
+
 .hero-section-wrapper-text {
-  font-weight: 500;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  color: var(--color-orange);
-}
-.wrapper-text {
   font-weight: 600;
   font-size: 4rem;
   text-transform: capitalize;
@@ -113,8 +104,7 @@ header {
   font-size: 30px;
   background-color: lightblue;
   border-radius: 50%;
-  /* padding: 1.5rem; */
-  /* width: 10%; */
+
   border: none;
   color: var(--color-primary);
 }
@@ -128,7 +118,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  /* border: 2px solid yellow; */
+
   width: 60%;
   gap: 40px;
 }
@@ -164,11 +154,160 @@ header {
   font-size: 1.4rem;
 }
 .info-data-header {
-  /* border: 2px solid red; */
   border-left: 2px solid rgba(255, 255, 255, 0.5);
   padding-left: 1rem;
 }
 .info-data-header:first-child {
   border-left: none;
   padding-left: 0;
+}
+
+/* Why us Section */
+.why-section {
+  margin-top: 3rem;
+}
+.why-heading {
+  font-weight: 600;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.section-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  border-radius: 20%;
+  padding: 1rem;
+  color: var(--color-white);
+  /* color: var(--color-white); */
+}
+.icon-contact {
+  background-color: var(--color-primary);
+  padding: 1rem;
+}
+.alarm-icon {
+  width: 3rem;
+  background-color: var(--color-green);
+  fill: var(--color-white);
+}
+.icon-desktop {
+  background-color: #fa6400;
+}
+.icon-dollar {
+  background-color: #fe6baa;
+}
+.first-icon {
+  font-weight: 500;
+  font-size: 1.4rem;
+  border: 1px solid #d9d5d5;
+  box-shadow: 0px 2px 0px 10px rgba(232, 228, 228, 0.11);
+  padding: 2rem;
+  border-radius: 5px;
+}
+.icons-heading {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.icon-text {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.middle-section {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 4rem;
+}
+.middle-image {
+  width: 54%;
+}
+.middle-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  /* margin-right: 5rem; */
+}
+.middle-text {
+  font-weight: 500;
+  font-size: 2rem;
+  color: var(--color-orange);
+  text-transform: uppercase;
+}
+.middle-heading {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 2.1rem;
+  margin-top: 1rem;
+}
+.middle-para {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.btn-start {
+  background-color: var(--color-secondary);
+  width: 12rem;
+  margin-top: 3rem;
+  font-weight: 600;
+}
+.second-middle-section {
+  /* border: 2px solid red; */
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 5rem;
+}
+.middle-section-image {
+  width: 60%;
+  margin-left: 20rem;
+}
+.tutor-section {
+  /* border: 2px solid red; */
+  margin-top: 5rem;
+}
+.tutor-heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: var(--color-orange);
+}
+.tutor-second-heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 0.8rem;
+}
+.tutor-para {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-orange);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.tutor-header {
+  font-weight: 700;
+  font-size: 2.1rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 0.6rem;
+}
+.middle-section-image img {
+  width: 52%;
 }

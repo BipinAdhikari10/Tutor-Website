@@ -1,0 +1,47 @@
+/* Course Section */
+.course-section {
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+}
+.course-heading {
+  font-size: 3rem;
+}
+.full-course-container {
+  margin-top: 3rem;
+}
+.course-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+}
+.course-icon {
+  padding: 6px 7px;
+  border-radius: 1rem;
+}
+.engineering-icon {
+  background-color: lightblue;
+}
+
+.programming-icon {
+  background-color: red;
+}
+.language-icon {
+  background-color: green;
+}
+.science-icon {
+  background-color: yellow;
+}
+
+/* Second row */
+.second-course-row {
+  margin-top: 2rem;
+}
